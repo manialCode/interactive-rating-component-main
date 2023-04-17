@@ -1,0 +1,31 @@
+@import "reset";
+@import "variables";
+@import "utility-classes";
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+  font-family: $ff-body;
+  font-size: $default-font-size;
+  background-color: $clr-neutral-500;
+  color: $clr-neutral-100;
+  display: grid;
+  place-items: center;
+}
+
+#app {
+  text-align: center;
+}
+
+font-face {
+  font-family: "Overpass";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Overpass-Italic-VariableFont_wght.ttf") format(tff);
+}
+
+@font-face {
+  font-family: "Overpass";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Overpass-VariableFont_wght.ttf") format(tff);
+}

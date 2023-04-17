@@ -1,0 +1,31 @@
+$clr-primary-400: hsl(25, 97%, 53%);
+
+$clr-neutral-100: hsl(0, 0%, 100%);
+$clr-neutral-200: hsl(217, 12%, 63%);
+$clr-neutral-300: hsl(216, 12%, 24%);
+$clr-neutral-400: hsl(213, 19%, 18%);
+$clr-neutral-500: hsl(216, 12%, 8%);
+
+$fw-regular: 400;
+$fw-bold: 700;
+
+$default-font-size: 15px;
+
+$fs-400: 0.875rem;
+$fs-500: 0.9375rem;
+$fs-600: 1rem;
+$fs-700: 1.5rem;
+$fs-800: 2.5rem;
+$fs-900: 3.5rem;
+
+$fs-body: 15px;
+$fs-primary-heading: $fs-700;
+$fs-secondary-heading: $fs-400;
+$fs-button: $fs-500;
+
+/* // https://piccalil.li/blog/a-modern-css-reset */
+
+/* Utility classes */
+
+$ff-primary: "Overpass", sans-serif;
+$ff-body: $ff-primary;

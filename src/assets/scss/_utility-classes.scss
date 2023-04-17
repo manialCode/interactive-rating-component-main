@@ -1,0 +1,108 @@
+// Text color
+.text-primary-400 {
+  color: $clr-primary-400;
+}
+
+.text-neutral-100 {
+  color: $clr-neutral-100;
+}
+
+.text-neutral-200 {
+  color: $clr-neutral-200;
+}
+
+.text-neutral-300 {
+  color: $clr-neutral-300;
+}
+
+.text-neutral-400 {
+  color: $clr-neutral-400;
+}
+
+.text-neutral-500 {
+  color: $clr-neutral-500;
+}
+
+//Background Color
+.bg-primary-400 {
+  background-color: $clr-primary-400;
+}
+
+.bg-neutral-100 {
+  background-color: $clr-neutral-100;
+}
+
+.bg-neutral-200 {
+  background-color: $clr-neutral-200;
+}
+
+.bg-neutral-300 {
+  background-color: $clr-neutral-300;
+}
+
+.bg-neutral-400 {
+  background-color: $clr-neutral-400;
+}
+
+.bg-neutral-500 {
+  background-color: $clr-neutral-500;
+}
+
+// Font Size
+
+.fs-400 {
+  font-size: $fs-400;
+}
+
+.fs-500 {
+  font-size: $fs-500;
+}
+
+.fs-600 {
+  font-size: $fs-600;
+}
+
+.fs-700 {
+  font-size: $fs-700;
+}
+
+.fs-800 {
+  font-size: $fs-800;
+}
+
+.fs-900 {
+  font-size: $fs-900;
+}
+
+.fs-pr-heading {
+  font-size: $fs-primary-heading;
+  font-weight: $fw-bold;
+}
+
+.fs-sd-heading {
+  font-size: $fs-secondary-heading;
+  font-weight: $fw-regular;
+}
+
+// Font Weight
+.fw-regular {
+  font-weight: $fw-regular;
+}
+
+.fw-bold {
+  font-weight: $fw-bold;
+}
+
+// Transforms
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-r {
+  text-align: start;
+}
+
+.no-select {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
